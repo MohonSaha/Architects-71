@@ -48,6 +48,35 @@ img {
     height: 241px;
 }
 
+/*=================== Style Features Section  =======================*/
+
+#features-section {
+    margin-bottom: 100px;
+}
+
+
+.features {
+    flex-direction: column;
+    gap: 60px;
+}
+
+.features-img {
+    /* order: 2; */
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.features-img img {
+    margin: 0 auto;
+    width: 300px;
+    height: 270px;
+}
+
+
+
+
+
+
+
 
 
 
