@@ -60,7 +60,16 @@
     margin-left: 16px;
     font-size: 18px;
     color: black;
+    padding: 3px 12px;
 }
+
+.nav-list ul li a:hover {  
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color:  var(--special-color);
+}
+
 
 /*===================== Style Brand Area  ====================*/
 .banner {
@@ -242,10 +251,20 @@ img {
     align-items: center;
 }
 
+.fact-card:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
 .fact-card img {
     width: 45.22px;
     height: 45.22px;
     margin: 0;
+}
+
+.fact-card img:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1s;
 }
 
 .fact-card h2 {

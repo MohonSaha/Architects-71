@@ -14,8 +14,22 @@
         margin: 0px;
         padding: 20px;
         flex-direction: column;
-        /* position: fixed; */
-        background-color: rgba(205, 66, 255, 0.106);
+        background-color: rgba(205, 66, 255, 0.092);
+    }
+
+    .nav-title h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .nav-list ul li a {
+        text-decoration: none;
+        margin-left: 0px;
+        font-size: 18px;
+        color: black;
+        padding: 3px 6px;  
+        /* transition-duration: 0.7s; */
     }
 
 
@@ -112,7 +126,7 @@ img {
 
 .fact-cards-container {
     flex-direction: column;
-    gap: 24px;
+    gap: 34px;
     align-items: center;
 }
 
@@ -140,6 +154,15 @@ img {
     height: 80px;
 }
 
+/* Contract Us Section  */
+#contract-box form{
+    width: 80%;
+}
+
+#contract-box label{
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+}
 
 
 
