@@ -6,15 +6,31 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-:root{
-    --primary-color:black;
+:root {
+    --primary-color: black;
     --seconday-color: #727272;
     --special-color: #FF900E;
- }
-
-/*================== Style Body Area  ================*/
-body {
 }
+
+/*======================== Utility Classes ====================== */
+
+.secondary-fonts {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--seconday-color);
+}
+
+.btn {
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: var(--special-color);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
 
 /*================== Style Nav Area  =================*/
 
@@ -46,10 +62,10 @@ body {
     color: black;
 }
 
-/*===================== Style Main Area  ====================*/
-main {
+/*===================== Style Brand Area  ====================*/
+.banner {
     background: rgba(255, 143, 14, 0.142);
-
+    padding-bottom: 40px;
 }
 
 .brand-container {
@@ -70,7 +86,7 @@ main {
     color: #131313;
 }
 
-/* Banner Image Section  */
+/*====================== Banner Image Section  =====================*/
 
 .banner-img {
     margin-bottom: 100px;
@@ -96,11 +112,11 @@ img {
     margin-bottom: 18px;
 }
 
-.first-span{
+.first-span {
     color: var(--seconday-color);
 }
 
-.second-span{
+.second-span {
     color: var(--special-color);
 }
 
@@ -125,7 +141,7 @@ img {
 }
 
 
-/* Style Experience Section  */
+/*================== Style Experience Section  ========================*/
 
 #experience-section {
     background-color: #fff;
@@ -146,14 +162,11 @@ img {
     font-size: 45px;
     font-weight: 700;
     padding-left: 12px;
-    border-left: 4px solid #FF900E;
+    border-left: 4px solid var(--special-color);
+    margin-bottom: 24px;
+
 }
 
-.exp-details {
-    font-size: 16px;
-    color: #727272;
-    margin: 24px 0px 30px 0px;
-}
 
 .exp-cards {
     margin-top: 35px;
@@ -172,12 +185,7 @@ img {
 
 .card-title {
     font-size: 20px;
-}
-
-.card-info {
-    margin-top: 8px;
-    color: #727272;
-    font-size: 16px;
+    margin-bottom: 12px;
 }
 
 .experiences-img img {
@@ -187,15 +195,11 @@ img {
 }
 
 .experiences-img button {
-    color: white;
-    background-color: #FF900E;
     padding: 35px;
-    border: none;
     border-radius: 8px;
     position: relative;
     top: -131px;
     left: 31px;
-    cursor: pointer;
 }
 
 .years {
@@ -204,7 +208,7 @@ img {
 }
 
 
-/* Style Facts Section  */
+/*===================== Style Facts Section  =========================*/
 
 #facts-section {
     background-color: #fff;
@@ -215,14 +219,7 @@ img {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-}
-
-.fact-info {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    margin-top: 24px;
-
+    margin-bottom: 10px;
 }
 
 .fact-cards {
@@ -237,7 +234,7 @@ img {
 .fact-card {
     width: 210.83px;
     height: 220.83px;
-    border: 1px solid #FF900E;
+    border: 1px solid var(--special-color);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -259,12 +256,12 @@ img {
 }
 
 .fact-card p {
-    color: #727272;
+    color: var(--seconday-color);
     font-size: 20px;
     font-weight: 600;
 }
 
-/* Style Sponsors Section */
+/*=================== Style Sponsors Section ======================*/
 
 #sponsors-section {
     background-color: #fff;
@@ -305,9 +302,58 @@ img {
     filter: grayscale(100%);
 }
 
-/* Style Footer ection  */
+/* Contract us section  */
+
+#contract-section {
+    margin-top: 80px;
+    position: relative;
+}
+
+#contract-section h1 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contract-section::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background: url(../images/contract.jpg) no-repeat center center/cover;
+}
+
+#contract-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contract-box input,
+#contract-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+#contract-box form {
+    width: 40%;
+}
+
+#contract-box label {
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/*===================== Style Footer ection  ===========================*/
 footer {
-    background-color: black;
+    background-color: var(--primary-color);
     width: 100%;
     height: 200px;
 }
@@ -317,11 +363,6 @@ footer h3 {
     text-align: center;
     padding-top: 80px;
 }
-
-
-
-
-
 
 /*====================== Utility Classes  =====================*/
 .container {
