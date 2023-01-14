@@ -71,6 +71,43 @@ img {
     height: 270px;
 }
 
+/*================== Style Experience Section  ========================*/
+
+#experience-section {
+    padding: 0% 0%;
+    margin-top: 70px;
+}
+
+.experiences {
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.experiences-description {  
+    width: 100%;
+    height: 1270px;
+    padding-top: 70px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.experiences-img img {
+    width: 308px;
+    height: 502px;
+    margin-left: 5%;
+}
+
+.experiences-img button {
+    padding: 22px;
+    border-radius: 8px;
+    position: relative;
+    top: -100px;
+    left: 31px;
+}
+
 
 
 
