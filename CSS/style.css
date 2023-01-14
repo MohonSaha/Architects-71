@@ -7,8 +7,7 @@
 }
 
 /*================== Style Body Area  ================*/
-body {
-}
+body {}
 
 /*================== Style Nav Area  =================*/
 
@@ -42,32 +41,32 @@ body {
 }
 
 /*===================== Style Main Area  ====================*/
-main{  
+main {
     background: rgba(255, 143, 14, 0.142);
-    
+
 }
 
-.brand-container{
+.brand-container {
     padding-top: 100px;
 }
 
 #brand-description {
     margin: 0 auto;
-    Width:862px; 
+    Width: 862px;
 }
 
-#brand-description h1{
+#brand-description h1 {
     font-size: 60px;
     font-weight: 700;
     text-align: center;
 }
 
-#brand-description p{
+#brand-description p {
     font-size: 16px;
     text-align: center;
 }
 
-.explore-button{
+.explore-button {
     margin-left: 40%;
     text-align: center;
     font-weight: 600;
@@ -82,11 +81,11 @@ main{
 
 /* Banner Image Section  */
 
-.banner-img{
+.banner-img {
     margin-bottom: 50px;
 }
 
- img{
+img {
     margin-left: 13%;
     width: 1040px;
     height: 500px;
@@ -95,28 +94,91 @@ main{
 
 /*=================== Style Features Section  =======================*/
 
-#features-section{
+#features-section {
     background-color: #fff;
+
+    padding: 0% 15%;
 }
 
-.features{
+.features {
     position: relative;
     top: -20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 60px;
-    padding: 0% 15%;
 }
-.features-img{
+
+.features-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.features-img img{
+.features-img img {
     width: 250px;
     height: 250px;
+}
+
+
+/* Style Experience Section  */
+
+#experience-section {
+    background-color: #fff;
+    padding: 0% 8%;
+}
+
+.experiences {
+    display: flex;
+}
+
+.experiences-description{
+    width: 586px;
+height: 982px;
+padding-top: 70px;
+}
+
+.exp-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 12px;
+    border-left: 4px solid #FF900E;
+}
+
+.exp-details{
+    font-size: 16px;
+    color: #727272;
+    margin: 24px 0px 30px 0px;
+}
+
+.exp-cards{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.306);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-info{
+    margin-top: 8px;
+    color: #727272;
+    font-size: 16px;
+}
+
+.experiences-img img {
+    width: 708px;
+    height: 982px
 }
 
 
@@ -124,6 +186,6 @@ main{
 
 
 /*====================== Utility Classes  =====================*/
-.container{
+.container {
     margin-top: 100px;
 }
