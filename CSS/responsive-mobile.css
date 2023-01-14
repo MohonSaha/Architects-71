@@ -108,9 +108,37 @@ img {
     left: 31px;
 }
 
+/*===================== Style Facts Section  =========================*/
+
+.fact-cards-container {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
 
 
+/*=================== Style Sponsors Section ======================*/
 
+#sponsors-section {
+    background-color: #fff;
+    padding: 0% 0%;
+}
+
+.sponsors-details {   
+    width: 100%;
+}
+
+.sponsors-img {
+    margin-top: 90px;
+    flex-direction: column;
+    gap: 34px;
+    align-items: center;
+}
+
+.sponsors-img img {
+    width: 190.83px;
+    height: 80px;
+}
 
 
 
