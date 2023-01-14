@@ -11,12 +11,11 @@
     }
 
     #navbar{
-        /* height: 20vh; */
         margin: 0px;
         padding: 20px;
         flex-direction: column;
-        /* position: sticky; */
-        background-color: rgba(219, 199, 253, 0.207);
+        /* position: fixed; */
+        background-color: rgba(205, 66, 255, 0.106);
     }
 
 
@@ -34,6 +33,22 @@
     font-size: 30px;
     margin-bottom: 15px;
 }
+
+
+/*====================== Banner Image Section  =====================*/
+
+.banner-img {
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+img {
+    margin-left: 4%;
+    width: 335px;
+    height: 241px;
+}
+
+
 
 
 
