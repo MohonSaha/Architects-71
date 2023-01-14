@@ -1,0 +1,129 @@
+/*=================== Resets Css  ====================*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*================== Style Body Area  ================*/
+body {
+}
+
+/*================== Style Nav Area  =================*/
+
+#navbar {
+    max-width: 1040px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list ul li {
+    list-style: none;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 18px;
+    color: black;
+}
+
+/*===================== Style Main Area  ====================*/
+main{  
+    background: rgba(255, 143, 14, 0.142);
+    
+}
+
+.brand-container{
+    padding-top: 100px;
+}
+
+#brand-description {
+    margin: 0 auto;
+    Width:862px; 
+}
+
+#brand-description h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#brand-description p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.explore-button{
+    margin-left: 40%;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+
+/* Banner Image Section  */
+
+.banner-img{
+    margin-bottom: 50px;
+}
+
+ img{
+    margin-left: 13%;
+    width: 1040px;
+    height: 500px;
+}
+
+
+/*=================== Style Features Section  =======================*/
+
+#features-section{
+    background-color: #fff;
+}
+
+.features{
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 0% 15%;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-img img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+/*====================== Utility Classes  =====================*/
+.container{
+    margin-top: 100px;
+}
