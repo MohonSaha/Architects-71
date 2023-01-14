@@ -6,18 +6,24 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+:root{
+    --primary-color:black;
+    --seconday-color: #727272;
+    --special-color: #FF900E;
+ }
+
 /*================== Style Body Area  ================*/
-body {}
+body {
+}
 
 /*================== Style Nav Area  =================*/
 
 #navbar {
     max-width: 1040px;
-    margin: 0px auto;
+    margin: 20px auto 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
 }
 
 .nav-title h2 {
@@ -53,36 +59,21 @@ main {
 #brand-description {
     margin: 0 auto;
     Width: 862px;
+    padding: 0px 30px;
+    text-align: center;
 }
 
 #brand-description h1 {
     font-size: 60px;
     font-weight: 700;
     text-align: center;
+    color: #131313;
 }
-
-#brand-description p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.explore-button {
-    margin-left: 40%;
-    text-align: center;
-    font-weight: 600;
-    color: #FFFFFF;
-    background-color: #FF900E;
-    border: none;
-    padding: 12px 16px;
-    border-radius: 8px;
-    margin-top: 32px;
-}
-
 
 /* Banner Image Section  */
 
 .banner-img {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 img {
@@ -95,9 +86,22 @@ img {
 /*=================== Style Features Section  =======================*/
 
 #features-section {
-    background-color: #fff;
-
     padding: 0% 15%;
+    margin-bottom: 100px;
+}
+
+.fratures-description h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.first-span{
+    color: var(--seconday-color);
+}
+
+.second-span{
+    color: var(--special-color);
 }
 
 .features {
@@ -132,26 +136,26 @@ img {
     display: flex;
 }
 
-.experiences-description{
+.experiences-description {
     width: 586px;
-height: 982px;
-padding-top: 70px;
+    height: 982px;
+    padding-top: 70px;
 }
 
-.exp-title{
+.exp-title {
     font-size: 45px;
     font-weight: 700;
     padding-left: 12px;
     border-left: 4px solid #FF900E;
 }
 
-.exp-details{
+.exp-details {
     font-size: 16px;
     color: #727272;
     margin: 24px 0px 30px 0px;
 }
 
-.exp-cards{
+.exp-cards {
     margin-top: 35px;
     display: flex;
     flex-direction: column;
@@ -166,11 +170,11 @@ padding-top: 70px;
     padding: 20px;
 }
 
-.card-title{
+.card-title {
     font-size: 20px;
 }
 
-.card-info{
+.card-info {
     margin-top: 8px;
     color: #727272;
     font-size: 16px;
@@ -178,8 +182,142 @@ padding-top: 70px;
 
 .experiences-img img {
     width: 708px;
-    height: 982px
+    height: 982px;
+    margin-left: 8%;
 }
+
+.experiences-img button {
+    color: white;
+    background-color: #FF900E;
+    padding: 35px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    top: -131px;
+    left: 31px;
+    cursor: pointer;
+}
+
+.years {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+/* Style Facts Section  */
+
+#facts-section {
+    background-color: #fff;
+    padding: 0% 8%;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fact-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+
+}
+
+.fact-cards {
+    margin-top: 10%;
+}
+
+.fact-cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-card {
+    width: 210.83px;
+    height: 220.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-card img {
+    width: 45.22px;
+    height: 45.22px;
+    margin: 0;
+}
+
+.fact-card h2 {
+    margin: 10px 0px;
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.fact-card p {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Style Sponsors Section */
+
+#sponsors-section {
+    background-color: #fff;
+    padding: 0% 8%;
+}
+
+.sponsors-details {
+    width: 542px;
+    height: 129px;
+    margin: 0px auto;
+}
+
+.sponsors-details h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsors-details p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+    padding: 0px 56px;
+    text-align: center;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors-img img {
+    width: 165.83px;
+    height: 50px;
+    margin-left: 0;
+    filter: grayscale(100%);
+}
+
+/* Style Footer ection  */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
 
 
 
