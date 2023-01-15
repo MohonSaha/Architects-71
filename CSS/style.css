@@ -339,7 +339,7 @@ img {
     display: flex;
 }
 
-.tiles .red, .blue{
+.tiles .red{
     width: 600px;
     height: 500px;
     background-color: #df5445;
@@ -368,6 +368,7 @@ img {
 .tiles .blue{
     width: 600px;
     height: 500px;
+    text-align: center;
     background-color: #49b1b9;
     padding: 85px 10px 60px 10px;
     position: relative;
@@ -416,7 +417,6 @@ img {
 .last-column .metting img{
     height: 150px;
     width: 20%;
-    /* position: relative; */
     position: absolute;
     left: 67%;
     top: 110px;

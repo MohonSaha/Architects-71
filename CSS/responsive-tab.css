@@ -153,5 +153,9 @@ img {
     height: 80px;
 }
 
+.tile-design{
+    display: none;
+}
+
 
 }
